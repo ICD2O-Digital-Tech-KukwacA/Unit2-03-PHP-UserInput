@@ -21,17 +21,15 @@
     <?php echo "<h1>User Input in PHP</h1>" ?>
     <form action="./welcome.php" method="post" target="result">
       <label for="first-name">First Name</label>
-      <input type="text" id="first-name" placeholder="Your Name" name="first-name"><br><br>
-      <label for="age">Age</label>
-      <input type="text" id="age" placeholder="Your Age" name="age"><br><br>
+      <input type="text" id="first-name" placeholder="First Name" name="first-name"><br><br>
+      <label for="donation">Donation</label>
+      <input type="text" id="donation" placeholder="Your donation" name="donation"><br><br>
       <input type="submit" value="Enter">
 			<br><br>	
     </form>
 <div id="result"></div>
-    <center>
       <iframe id="result" name="result">
-				Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
+				Your first name is <?php echo $_POST["first-name"]; ?> and you donated <?php echo $_POST["donation"]; ?>.
       </iframe>
-    </center>
   </body>
 </html>
