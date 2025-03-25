@@ -29,7 +29,7 @@
     </form>
 <div id="result"></div>
       <iframe id="result" name="result">
-				Your first name is <?php echo $_POST["first-name"]; ?> and you donated <?php echo $_POST["donation"]; ?>.
+				Your first name is <?php echo $_POST["first-name"]; ?> and your donation <?php echo $_POST["donation"]; ?>.
       </iframe>
   </body>
 </html>

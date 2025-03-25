@@ -1,1 +1,1 @@
-Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
+Your first name is <?php echo $_POST["first-name"]; ?> and your donation is <?php echo $_POST["age"]; ?>.
